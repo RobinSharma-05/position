@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.box {
+    border: 3px solid red;
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.p-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.min-100vh {
+    min-height: 100vh;
+}
+
+.p-relative {
+    position: relative;
+}
